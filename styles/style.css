@@ -115,3 +115,21 @@ body{
 img{
     width: 100%;
 }
+table,th,td{
+    color: white;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+.table-header{
+    color: white;
+}
+.table-section{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    gap: 200px;
+}
+h1,h6{
+    color: white;
+}
+
