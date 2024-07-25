@@ -1,0 +1,87 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.menubar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 5px;
+}
+.logo{
+    color: tomato; 
+}
+.home{
+    background-color: tomato;
+    border-radius: 5px;
+    padding: 2px;
+}
+.bannar-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(36, 34, 34);
+}
+.b-right{
+    position: relative;
+
+}
+.ban-header{
+    color: white;
+}
+.italic{
+    font-style: italic;
+}
+.btn-p{
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.btn-s{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.a-1{
+    color: white;
+    border: 1px solid white;
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    border-radius: 10px;
+    text-align: center;
+}
+.a-2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    border: 1px solid white;
+    width: 200px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    border-radius: 10px;
+    
+}
+.tomato-dot{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: tomato;
+}
