@@ -85,3 +85,33 @@ body{
     border-radius: 50%;
     background-color: tomato;
 }
+.change-habit-container{
+    text-align: center;
+}
+.change-habit-Header{
+    color: white;
+}
+.change-habit-templete{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    color: white;
+}
+.run-section-container{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    padding: 30px;
+    margin: 20px auto ;
+    background-color: rgb(92, 86, 86);
+}
+.run-section-header{
+    color: white;
+}
+.run-section-img{
+    width: 50%;
+    border-radius: 400px;
+}
+img{
+    width: 100%;
+}
